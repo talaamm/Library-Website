@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download Your Favorite Book for Free!</title>
+	<style>
+		#container {
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			padding: 24px;
+		}
+		h1{
+			text-align: center;
+			padding-bottom: 20px;
+			text-transform: capitalize;
+			font-size: 60px;
+			font-family: Viaoda Libre;
+		}
+		nav a{
+			text-decoration: none;
+			text-align: center;
+			float: left;
+			font-size: 18px;
+			padding: 14px 16px;
+			color: white;
+		}
+		nav a:hover{
+			background-color: #48D1CC;
+			color: white;
+		}
+		nav a.active{
+			background-color: #48D1CC;
+			color: #F5F5DC;
+		}
+		nav {
+			overflow: hidden;
+			background-color: #221f20;
+		}
+		input{
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            width: 130%;
+        }
+		#searchbar {
+            margin: auto;
+            width: 20%;
+            padding-left: 160px;
+            display: flex;
+            flex-direction: row;
+        }
+        #searchicon{
+            padding-top: 8.5px;
+        }
+        #logo{
+        	padding-top: 0.5px;
+        }    
+        footer{
+        	background-color: #221f20;
+        	font-size: 20px;
+        }
+        footer a{
+        	text-decoration: none;
+        	color: #48D1CC;
+        }
+        #links {
+        	color: white;
+        	padding-left: 25px;
+        	display: flex;
+        	flex-direction: row;
+        }
+        footer ul,li {
+        	padding-left: 1px;
+        }
+        #rights {
+        	text-align: right ;
+        	color: white;
+        	padding-right: 25px;
+        	font-size: 10px;
+        }
+        #main, header{
+
+			background-color: #F0fFFF;
+        }
+        #main {
+        	font-family: sen;
+        }
+        h3 {
+        	font-size: 23px;
+        }
+        a.btn {
+        	text-decoration: none;
+        	text-transform: uppercase;
+        	background-color: #48D1CC;
+        	text-align: center;
+        	padding: 10px;
+        	color: #F5F5DC;
+        }
+        li.botn {
+        	padding-left: 40px;
+        	padding-top: 20px;
+        	border-collapse: collapse;
+        }
+        #Pack1, #Pack2{
+        	display: flex;
+        	flex-direction: row;
+        }
+        div.book2, div.book3, div.book5{
+        	padding-left: 70px;
+        }
+        h2 {
+        	font-family: dancing script;
+        	text-align: center;
+        	font-size: 35px;
+        	text-transform: capitalize;
+        }
+	</style>
+</head>
+<body>
+<div id="container">
+	<header>
+		<div id="logo">
+			<img src="logo.png" height="250" width="250" align="right" id="logo1">
+			<link href="https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap" rel="stylesheet">
+			<h1>“A room without books is like a body without a soul...”</h1>
+		</div>
+		<nav>
+			<a href="home page.html">Home</a>
+			<a href="Books and life.html">Books and Life</a>
+			<a class="active" href="Popular items.html">Trending Items</a>
+			<a href="Available books.html">Available Books</a>
+			<a href="about.html">About</a>
+            <div id="searchbar">
+            <div><input type="text" placeholder="Search for books by title or author"></div>
+            <div><img id="searchicon" src="search.png" height="30" width="30"></div>
+            </div>
+		</nav>
+	</header>
+
+
+<div id="main">
+	<h2>You can find here the most trending books!</h2>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet" >
+	<div id="allpacks">
+	<div id="Pack1">
+	<div class="book1" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="darknesscover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 5px;"><b>Heart Of Darkness.</b></h3></li>
+			<li><i><b>Author:</b></i> Joseph Conrad.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The story tells of Charles Marlow, an Englishman who took a foreign assignment from a Belgian trading company as a ferry-boat captain in Africa. It follows Marlow as he recounts from dusk through to late night, to a group of men aboard a ship anchored in the Thames Estuary his Congolese adventure. The passage of time and the darkening sky during the fictitious narrative-within-the-narrative parallel the atmosphere of the story.</li>
+			<li class="botn"><a href="Heart-of-Darkness.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book2" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="lossofreason-cover.jpg" width="130" height="150" style="padding-left: 50px;"></li>
+			<li><h3 style="padding-left: 32px;"><b>Loss Of Reason.</b></h3></li>
+			<li><i><b>Author:</b></i> Miles A. Maxwell.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> A nuclear bomb is detonated in New York. Banker, wife, mother, Cynthia lives in New York. The military has quarantined the city, its bridges and tunnels destroyed or blocked. Easterly winds have forced the bomb's radiation cloud out over Long Island. But the wind is about to change. Franklin climbs mountains and truly understands people. Everon can fly anything. And Cynthia's brothers are determined to find her. If it were your sister, what would you do?</li>
+			<li class="botn"><a href="Loss-Of-Reason.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book3" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thehousecover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 22px;"><b> The House Of Closed Doors.</b></h3></li>
+			<li><i><b>Author:</b></i> Jane Steen.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> "My stepfather was not particularly fond of me to begin with, and now that he'd found out about the baby, he was foaming at the mouth" Desperate to avoid marriage, Nell Lillington refuses to divulge the name of her child's father and accepts her stepfather's decision that the baby be born at a Poor Farm and discreetly adopted.Until an unused padded cell is opened and two small bodies fall out.</li>
+			<li class="botn"><a href="The-House-of-Closed-Doors.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+</div>
+<div id="Pack2">
+		<div class="book4" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="blackbeautycover.jfif" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 25px;"><b> Black Beauty.</b></h3></li>
+			<li><i><b>Author:</b></i> Anna Sewell.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The narrator of this book, the handsome, coal-black horse called ''Black Beauty'', is lead through numerous adventures by various owners - from a riding and carriage horse, to the rough life of a town cab horse, to eventual happiness in a secure home, he keeps his strength and good temper. Influential as animal-rights propaganda, this tale is an extremely exciting and moving story.</li>
+			<li class="botn"><a href="Black-Beauty.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book5" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thehoundcover.jpg" width="130" height="150" style="padding-left: 50px;"></li>
+			<li><h3 style="padding-left: 40.5px;"><b> The Hound of the Baskervilles.</b></h3></li>
+			<li><i><b>Author:</b></i> Arthur Conan Doyle.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> This may be the most popular of all of the Sherlock Holmes stories. Inspired by regional mythology of the British Isles concerning hell-hounds, the tale tells of detective Sherlock Holmes and his assistant Dr. Watson as they are called to investigate an alleged curse upon the house of the Baskervilles.</li>
+			<li class="botn"><a href="The-Hound-of-the-Baskervilles.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+</div>
+</div>
+
+
+<footer>
+	<div id="links">
+	<div class="one" style="width: 400px;">
+		<p>Resources</p><ul style="list-style-type: none;">
+			<li>Rosary Sisters' High School.</li>
+			<li><a href="https://www.w3schools.com/" target="blank">W3 Schools.</a></li>
+			<li><a href="https://www.toppr.com/guides/essays/essay-on-books/">Essay </a> on books.</li>
+			<li><a href="https://www.najah.edu/en/" target="blank">An Najah University.</a></li>
+			<li>10 life changing <a href="https://www.goodnet.org/articles/10-lifechanging-books-that-will-stay-you-forever"> books.</a></li>	
+			<li><a href="https://openlibrary.org/">The open library.</a></li>
+		</ul>
+	</div>
+	<div class="two" style="padding-left: 45px; width: 399px;">
+		<p>Contact with us</p> <ul style="list-style-type: none;">
+		<li>Email 1: <a href="mailto:4bookfree@gmail.com" target="blank">4bookfree@gmail.com</a></li>
+		<li>Email 2: <a href="mailto:st.tala.amm@rosaryshs-j.com">st.tala.amm@rosaryshs-j.com</a></li>
+		<li>Instagram @<a href="https://instagram.com/the_onlinelibrary?igshid=apmx244ahdu4" target="blank">the_onlinelibrary</a></li>
+	</ul>
+	</div>
+	<dir class="three">
+		<img src="logo.png" height="180" width="180" style="padding-left: 500px">
+	</dir>
+</div>
+		<p id="rights" style="padding-top: 5px">Copy rights 2020| All Rights Reserved</p>
+</footer>
+</div>
+</body>
+</html>

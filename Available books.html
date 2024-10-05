@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download Your Favorite Book for Free!</title>
+	<style>
+		#container {
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			padding: 24px;
+		}
+		h1{
+			text-align: center;
+			padding-bottom: 20px;
+			text-transform: capitalize;
+			font-size: 60px;
+			font-family: Viaoda Libre;
+		}
+		#titleandlogo a{
+			text-decoration: none;
+			text-align: center;
+			float: left;
+			font-size: 18px;
+			padding: 14px 16px;
+			color: white;
+		}
+		#titleandlogo a:hover{
+			background-color: #48D1CC;
+			color: white;
+		}
+		#titleandlogo a.active{
+			background-color: #48D1CC;
+			color: #F5F5DC;
+		}
+		#titleandlogo {
+			overflow: hidden;
+			background-color: #221f20;
+		}
+		input{
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            width: 130%;
+        }
+		#searchbar {
+            margin: auto;
+            width: 20%;
+            padding-left: 160px;
+            display: flex;
+            flex-direction: row;
+        }
+        #searchicon{
+            padding-top: 8.5px;
+        }
+        #logo{
+        	padding-top: 0.5px;
+        }    
+        footer{
+        	background-color: #221f20;
+        	font-size: 20px;
+        }
+        footer a{
+        	text-decoration: none;
+        	color: #48D1CC;
+        }
+        #links {
+        	color: white;
+        	padding-left: 25px;
+        	display: flex;
+        	flex-direction: row;
+        }
+        footer ul,li {
+        	padding-left: 1px;
+        }
+        #rights {
+        	text-align: right ;
+        	color: white;
+        	padding-right: 25px;
+        	font-size: 10px;
+        }
+        #main, header{
+
+			background-color: #F0fFFF;
+        }
+        #main h2 {
+        	font-family: dancing script;
+        	text-align: center;
+        	font-size: 35px;
+        }
+        #main {
+        	font-family: sen;
+        }
+        h3 {
+        	font-size: 23px;
+        }
+        a.btn {
+        	text-decoration: none;
+        	text-transform: uppercase;
+        	background-color: #48D1CC;
+        	text-align: center;
+        	padding: 10px;
+        	color: #F5F5DC;
+        }
+        li.botn {
+        	padding-left: 40px;
+        	padding-top: 20px;
+        	border-collapse: collapse;
+        }
+        #Pack1, #Pack2, #Pack3, #Pack4, #Pack5, #Pack6 {
+        	display: flex;
+        	flex-direction: row;
+        }
+        div.book2, div.book3, div.book5, div.book6, div.book8, div.book9, div.book11, div.book12, div.book14, div.book15, div.book17, div.book18{
+        	padding-left: 70px;
+        }
+	</style>
+</head>
+<body>
+<div id="container">
+	<header>
+		<div id="logo">
+			<img src="logo.png" height="250" width="250" align="right" id="logo1">
+			<link href="https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap" rel="stylesheet">
+			<h1>“A room without books is like a body without a soul...”</h1>
+		</div>
+		<nav id="titleandlogo">
+			<a href="home page.html">Home</a>
+			<a href="Books and life.html">Books and Life</a>
+			<a href="Popular items.html">Trending Items</a>
+			<a class="active" href="Available books.html">Available Books</a>
+			<a href="about.html">About</a>
+            <div id="searchbar">
+            <div><input type="text" placeholder="Search for books by title or author" ></div>
+            <div><img id="searchicon" src="search.png" height="30" width="30"></div>
+            </div>
+		</nav>
+	</header>
+
+
+<div id="main">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<h2>Reading gives us someplace to go, when we have to stay where we are!</h2>
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet" >
+	<div id="allpacks">
+	<div id="Pack1">
+	<div class="book1" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="ecstasycover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 55px;"><b>Ecstasy.</b></h3></li>
+			<li><i><b>Author:</b></i> Abdulhadi Al-Amshan.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> Try to see life through the eyes of a person surrounded by darkness from the start. It is a series that the writer expresses through illustrations and art. It is for the people who like to allow their imagination to blast away. Ecstasy also inspires people, who don't read books, to start reading.</li>
+			<li class="botn"><a href="ecstasybook.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book2" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thehiddenforcecover.png" width="130" height="150" style="padding-left: 50px;"></li>
+			<li><h3 style="padding-left: 32px;"><b>The Hidden Force.</b></h3></li>
+			<li><i><b>Author:</b></i> Louis Couperus.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The Hidden Force gives a picture of life in the Dutch East Indies in the last year of the 19<sup>th</sup> and the 1<sup>st</sup> year of the 20<sup>th</sup> century. Conditions have altered slightly since there are some minors change but the relations between the Europeans and the natives remained as they were.</li>
+			<li class="botn"><a href="thehiddenforce.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book3" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thelaterlifecover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 32px;"><b>The Later Life.</b></h3></li>
+			<li><i><b>Author:</b></i> Louis Couperus.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The Later Life is the second of The Books of the Small Souls, the novel that gives the title to the series. In the present story, Couperus reverts, at times and in a measure, to that earlier, "sensitivist" method which he abandoned almost wholly in Small Souls and in The Twilight of the Souls.</li>
+			<li class="botn"><a href="thelaterlife.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+	<div id="Pack2">
+		<div class="book4" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thetourcover.jfif" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3 style="padding-left: 40.5px;"><b>The Tour.</b></h3></li>
+			<li><i><b>Author:</b></i> Louis Couperus.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> It was not possible to feel always, always, the same vehement grief. To-morrow, nay, in an hour, the sorrow would resume its violence; now, in this night of coolness and melody, there was just a brief rest, a moment of annihilation, almost a sense of wistful well-being. And, in this calmer mood, Louis felt a need to speak a friendly word to his old friend and tutor, as he had not done since the voyage began.</li>
+			<li class="botn"><a href="thetour.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book5" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thetimemachinecover.png" width="130" height="150" style="padding-left: 50px;"></li>
+			<li><h3 style="padding-left: 40.5px;"><b> The Time Machine.</b></h3></li>
+			<li><i><b>Author:</b></i> H.G. Wells.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> A brilliant fantasy beyond conventional thought. It's plain enough, . We cannot see it, nor can we appreciate this machine, any more than we can the spoke of a wheel spinning, or a bullet flying through the air.If it is travelling through time fifty times or a hundred times faster than we are, if it gets through a minute while we get through a second.We sat and stared at the vacant table. Then the Time Traveller asked us what we thought of it all.</li>
+			<li class="botn"><a href="thetimemachine.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book6" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="ohwellukhowwomanarecover.png" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3><b> Oh! Well! You Know How Women Are!</b></h3></li>
+			<li><i><b>Author:</b></i> Irvin S. Cobb.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> Isn't That Just Like a Man! Managers of big city shops once lifted the rule prescribing certain modes for their female working staffs--if they should give their women clerks a free hand in choosing their own wardrobes for store hours--well, you know how women are!</li>
+			<li class="botn"><a href="ohwellukhowwomanare.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+	<div id="Pack3">
+		<div class="book7" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="howtouseurmindcover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 5px;"><h3><b>How To Use Your Mind. </b></h3></li>
+			<li><i><b>Author:</b></i> Harry Dexter Kitson.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> Educational leaders are seeing with increasing clearness the necessity of teaching students not only the subject-matter of study but also methods of study. The recognition of this condition is taking the form of the movement toward ''supervised study,'' which attempts to acquaint the student with principles of economy and directness in using his mind.</li>
+			<li class="botn"><a href="howtouseurmind.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book8" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thefrightscover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>The Frights of Fiji. </b></h3></li>
+			<li><i><b>Author:</b></i> Sunayna Prasad.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> A world of magic and adventure awaits… Sent to live with her strict, aloof, and uncaring uncle after her parents are killed in a car accident, twelve-year-old orphan Alyssa McCarthy longs for the life she used to have—one filled with fun and love. Then one stormy night, a message appears in the raindrops on the window that will change everything."Your life will never be the same again, as magic will interfere."</li>
+			<li class="botn"><a href="The-Frights-of-Fiji.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book9" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="goodandevilcover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>Beyond Good and Evil. </b></h3></li>
+			<li><i><b>Author:</b></i> Friedrich Wilhelm Nietzsche.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> ting that all philosophers, in so far as they have been dogmatists, have failed to understand women--that the terrible seriousness and clumsy importunity with which they have usually paid their addresses to Truth, have been unskilled and unseemly methods for winning a woman? Certainly she has never allowed herself to be won. </li>
+			<li class="botn"><a href="goodandevil.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+	<div id="Pack4">
+		<div class="book10" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thepowerofconcentrationcover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>The Power of Concentration.</b></h3></li>
+			<li><i><b>Author:</b></i> Theron Q. Dumont.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> It is of the utmost value to learn how toconcentrate. To make the greatest success of anything you must beable to concentrate your entire thought upon the idea you areworking on. The person that is able to concentrate utilizes allconstructive thoughts and shuts out all destructive ones. Thegreatest man would accomplish nothing if he lacked concentration.</li>
+			<li class="botn"><a href="thepowerofconcentration.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book11" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="holdthatthoughtcover.jfif" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>Hold That Thought.</b></h3></li>
+			<li><i><b>Author:</b></i> Chana Mason.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> This book is about empowerment, choice, and creating a positive life through the power of thought. it helps to  understand and apply the Law of Attraction, Manifest your desires, Discover your authentic self, Become a conscious creator, Align with Universal Mind, Increase your creativity, Reduce stress, Focus your thoughts and master your mind.</li>
+			<li class="botn"><a href="holdthatthought.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book12" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="arabiannightscover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>The Arabian Nights.</b></h3></li>
+			<li><i><b>Author:</b></i> Andrew Lang.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> A medieval Middle-Eastern literary epic which tells the story of Scheherazade, a Sassanid Queen, who must relate a series of stories to her malevolent husband, the King, to delay her execution. The stories are told over a period of one thousand and one nights, and every night she ends the story with a suspenseful situation, forcing the King to keep her alive for another day. </li>
+			<li class="botn"><a href="arabiannights.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+	<div id="Pack5">
+		<div class="book13" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="invisiblecover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>The Invisible Man.</b></h3></li>
+			<li><i><b>Author:</b></i> H.G. Wells.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The Invisible Man of the title is ''Griffin'', a scientist who theorizes that if a person's refractive index is changed to exactly that of air and his body does not absorb or reflect light, then he will not be visible. He successfully carries out this procedure on himself, but begins to become mentally unstable as a result.</li>
+			<li class="botn"><a href="invisible.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book14" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="demoncover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b>The Demon Girl.</b></h3></li>
+			<li><i><b>Author:</b></i> Penelope Fletcher.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> Rae Wilder has problems. Plunged into a world of dark magic, fierce creatures and ritual sacrifice, she is charged with a guarding a magical amulet. Rae finds herself beaten up, repeatedly, and forced to make a choice: to live and die human, or embrace her birth-right and wield magics that could turn her into something wicked, a force of nature nothing can control.</li>
+			<li class="botn"><a href="demon.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book15" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="thewarcover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b> The War Of The Worlds.</b></h3></li>
+			<li><i><b>Author:</b></i> H.G. Wells.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The War of the Worlds describes the fictional 1895 invasion of Earth by aliens from Mars who use laser-like Heat-Rays, chemical weapons, and mechanical three-legged ''fighting machines'' that could potentially be viewed as precursors to the tank. After defeating the resistance the Martians devastate much of eastern England.</li>
+			<li class="botn"><a href="thewar.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+	<div id="Pack6">
+		<div class="book16" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="frankdiarycover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li><h3><b>The Diary Of A Young Girl.</b></h3></li>
+			<li><i><b>Author:</b></i> Anne Frank.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> The Diary of A Young Girl, is a book of the writings from the Dutch language. The diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.</li>
+			<li class="botn"><a href="frankdiary.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div><div class="book17" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="evesdiarycover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 37px;"><h3><b> Eve's Diary.</b></h3></li>
+			<li><i><b>Author:</b></i> Mark Twain.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> A comic short story written in the style of a diary kept by the first woman, Eve.</li>
+			<li class="botn"><a href="Eve's-Diary.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	<div class="book18" style="width: 350px">
+		<p><ul style="list-style-type: none;">
+			<li><img src="tenthdreamscover.jpg" width="130" height="150" style="padding-left: 30px;"></li>
+			<li style="padding-left: 10px;"><h3><b> 10,000 Dreams.</b></h3></li>
+			<li><i><b>Author:</b></i> Gustavus Hindman Miller.</li>
+			<li style="font-size: 15px;"><i><b>Description:</b></i> Freud would roll over on his couch if he had what we have: a reprint of 10,000 Dreams Interpreted. It's simple. All you do is look up what you dreamed about last night, and Miller has the answer.</li>
+			<li class="botn"><a href="tenthdreams.pdf" download class="btn" target="blank">Download</a></li>
+		</ul></p>
+	</div>
+	</div>
+</div>
+</div>
+
+
+<footer>
+	<div id="links">
+	<div class="one" style="width: 400px;">
+		<p>Resources</p><ul style="list-style-type: none;">
+			<li>Rosary Sisters' High School.</li>
+			<li><a href="https://www.w3schools.com/" target="blank">W3 Schools.</a></li>
+			<li><a href="https://www.toppr.com/guides/essays/essay-on-books/">Essay </a> on books.</li>
+			<li><a href="https://www.najah.edu/en/" target="blank">An Najah University.</a></li>
+			<li>10 life changing <a href="https://www.goodnet.org/articles/10-lifechanging-books-that-will-stay-you-forever"> books.</a></li>	
+			<li><a href="https://openlibrary.org/">The open library.</a></li>
+			<li><a href="https://freeditorial.com/en/books/the-tour/related-books">Freeditorial.</a></li>
+		</ul>
+	</div>
+	<div class="two" style="padding-left: 45px; width: 399px;">
+		<p>Contact with us</p> <ul style="list-style-type: none;">
+		<li>Email 1: <a href="mailto:4bookfree@gmail.com" target="blank">4bookfree@gmail.com</a></li>
+		<li>Email 2: <a href="mailto:st.tala.amm@rosaryshs-j.com">st.tala.amm@rosaryshs-j.com</a></li>
+		<li>Instagram @<a href="https://instagram.com/the_onlinelibrary?igshid=apmx244ahdu4" target="blank">the_onlinelibrary</a></li>
+	</ul>
+	</div>
+	<dir class="three">
+		<img src="logo.png" height="180" width="180" style="padding-left: 500px">
+	</dir>
+</div>
+		<p id="rights" style="padding-top: 5px">Copy rights 2020| All Rights Reserved</p>
+</footer>
+</div>
+</body>
+</html>
