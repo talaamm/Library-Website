@@ -36,4 +36,7 @@ i would like to mention that all the pages were linked to each other, and every 
 check the GIF below👇:
 
 ![header page](./gifs/linked.gif)
+
+(the email click at the end pop up a new window where "send to:" field is my email, but it didnt appear in the screen record)
+
 ![footer page](./gifs/footer.gif)
