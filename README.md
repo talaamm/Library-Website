@@ -40,3 +40,11 @@ check the GIF below👇:
 (the email click at the end pop up a new window where "send to:" field is my email, but it didnt appear in the screen record)
 
 ![footer page](./gifs/footer.gif)
+
+
+and this was my IT teacher's comment🤣it meant a lot for me at that time
+![teachers comment](./gifs/miss-sally.jpeg)
+
+
+
+# **!!! THANK YOU !!!**
