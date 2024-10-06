@@ -16,3 +16,24 @@ i also had a page named Books and life:
 which also said that Books Have Multiple Purposes, Reading Enhances Cognitive and Emotional Skills, Different Books for Different Needs, The Overall Importance of Reading. it also included Supportive Resources and Contact Information it mentions resources for further information on the value of reading, including schools and libraries. (through linked yt vids)
 
 ![books and life page](./gifs/books-and-life.gif)
+
+i had a page named 'Trending Books' where you can find the most famous books 
+(they were not really the most famous😅 since i was a very beginner developer i chose them myself)
+you can find for each book: the coverPage, the author, a brief description about the book, and a clickable button to download the book as PDF.
+
+![trending page](./gifs/trending.gif)
+
+another page with the all available books in the online Library
+also, you can find for each book: the coverPage, the author, a brief description about the book, and a clickable button to download the book as PDF.
+
+![all books page](./gifs/available-books.gif)
+
+last but not least, the about page which contains some info about me :)
+
+![about page](./gifs/about.gif)
+
+i would like to mention that all the pages were linked to each other, and every link in the footer has a certain job
+check the GIF below👇:
+
+![header page](./gifs/linked.gif)
+![footer page](./gifs/footer.gif)
